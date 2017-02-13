@@ -15,7 +15,7 @@ class Nao:
     def __init__(self):
         self.IP = "localhost"  # Replace here with your NaoQi's IP address.
         self.PORT = 9559
-        #self.bmanager = ALProxy("ALBehaviorManager", self.IP, self.PORT)
+        self.bmanager = ALProxy("ALBehaviorManager", self.IP, self.PORT)
         self.poseProxy = ALProxy("ALRobotPose", self.IP, self.PORT)
         self.motionProxy = ALProxy("ALMotion", self.IP, self.PORT)
         self.memProxy = ALProxy("ALMemory",self.IP,self.PORT)
