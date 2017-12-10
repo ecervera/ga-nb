@@ -1,8 +1,0 @@
-name: ga-nb-environment
-channels:
-  - openmdao
-dependencies:
-  - python=2.7
-  - numpy
-  - matplotlib
-  - pyevolve
