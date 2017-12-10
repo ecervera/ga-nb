@@ -1,6 +1,7 @@
 name: ga-nb-environment
 channels:
   - conda-forge
+  - openmdao
 dependencies:
   - python
   - numpy
