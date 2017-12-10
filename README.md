@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ecervera/ga-nb/master?filepath=index.ipynb)
 # Genetic Algorithms Notebooks
 
 Examples and exercises with [pyevolve](http://pyevolve.sourceforge.net/0_6rc1/).
